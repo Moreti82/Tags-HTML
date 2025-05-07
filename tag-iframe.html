@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAG IFRAME</title>
+    <style>
+        p, ul, table{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 900px; margin: 0 auto">
+        <h1>TAG iframe</h1>
+        <p style="text-align: justify; text-indent: 50px; line-height: 1.5">A tag iframe em HTML significa inline frame e também é conhecida como inline frame. Esse elemento HTML serve para incorporar uma página web externa ou outro documento HTML no documento HTML atual. Essa funcionalidade permite que os desenvolvedores exibam conteúdo de sites ou páginas web externos em seus próprios documentos HTML, normalmente dentro de uma janela ou frame. É importante ressaltar que o JavaScript pode facilitar a interação entre o conteúdo dentro do elemento e o conteúdo da página web que o hospeda</p>
+
+        <div style="text-align: center;">
+            <iframe src="https://www.prepbytes.com/blog/html/iframe-tag-in-html/" height="400px" width="400px" name="tag-iframe" style="border: 1px solid blue; width: 100%;"></iframe>
+        </div>
+
+        <h2>Sintaxe da tag iframe</h2>
+
+        <p style="text-align: justify; text-indent: 50px; line-height: 1.5">A tag iframe tem a seguinte sintaxe: < iframe src="URL" width="width" height="height">< /iframe>, onde:
+            <ul style="text-align: justify; text-indent: 10px; line-height: 1.5">
+                <li><span style="font-weight: bold;">Src:</span> O atributo src especificará a URL da página web ou pode ser o documento HTML que você deseja exibir dentro do seu próprio documento HTML.</li>
+                <li><span style="font-weight: bold;">Width:</span>Especificará a largura do iframe que será visível na página web.</li>
+                <li><span style="font-weight: bold;">Height:</span> Este atributo da tag iframe em HTML especificará a altura do iframe que será visível na página web.</li>
+        </ul>
+
+        <h2>Principais Atributos da < ifrmame>< /ifrmame></h2>
+
+        <table border="2" style="line-height: 1.5;">
+            <thead style="background: #00ced1;">
+                <tr>
+                    <th>Atributo</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>  
+                </tr>
+
+            <tbody align="center" style="background: #808080; font-weight: bold; color: white;">
+                <tr>
+                    <td>src</td>
+                    <td>URL da página que será exibida dento do iframe</td>
+                    <td>src="https//exemplo.com"</td>
+                </tr>
+
+                <tr>
+                    <td>width</td>
+                    <td>Largura do iframe (pode ser em px ou %).</td>
+                    <td>width="600"</td>
+                </tr>
+
+                <tr>
+                    <td>height</td>
+                    <td>Altura do iframe.</td>
+                    <td>height="400"</td>
+                </tr>
+
+                <tr>
+                    <td>title</td>
+                    <td>	Texto alternativo para acessibilidade. Obrigatório para acessibilidade moderna.</td>
+                    <td>title="Mapa do Google"</td>
+                </tr>
+
+                <tr>
+                    <td>name</td>
+                    <td>Nome do iframe, usado como alvo de links com target.</td>
+                    <td>name="meuFrame"</td>
+                </tr>
+
+                <tr>
+                    <td>sandbox</td>
+                    <td>Restringe ações no iframe por segurança. Pode ser usado sozinho ou com valores.</td>
+                    <td>sandbox="allow-scripts allow-forms"</td>
+                </tr>
+
+                <tr>
+                    <td>allow</td>
+                    <td>Define permissões específicas como uso de câmera, microfone, geolocalização, etc.</td>
+                    <td>allow="camera; microphone"</td>
+                </tr>
+
+                <tr>
+                    <td>allowfullscreen	</td>
+                    <td>Permite que o conteúdo dentro do iframe seja exibido em tela cheia.</td>
+                    <td>Permite que o conteúdo dentro do iframe seja exibido em tela cheia.</td>
+                </tr>
+
+                <tr>
+                    <td>loading</td>
+                    <td>Define quando o iframe deve ser carregado: eager (imediato) ou lazy (adiado até estar visível).</td>
+                    <td>loading="lazy"</td>
+                </tr>
+
+                <tr>
+                    <td>referrerpolicy</td>
+                    <td>Controla qual informação de referência será enviada com a requisição.</td>
+                    <td>referrerpolicy="no-referrer"</td>
+                </tr>
+                
+                <tr>
+                    <td>srcdoc</td>
+                    <td>Permite incluir um documento HTML diretamente no iframe, ao invés de usar src.</td>
+                    <td>srcdoc="<p>Olá, mundo!</p>"</td>
+                </tr>
+
+                <tr>
+                    <td>style</td>
+                    <td>Aplica estilos CSS diretamente no iframe.</td>
+                    <td>style="border: none; border-radius: 8px;"</td>
+                </tr>
+            </tbody>
+                
+            </thead>
+        </table>
+        
+        <h2>Conclusão</h2>
+
+        <p style="text-align: justify; text-indent: 50px;">A tag iframe em HTML é muito útil para permitir que desenvolvedores web incorporem páginas externas e HTML em suas próprias páginas. Mas, além dos efeitos positivos, ela também tem efeitos negativos, como o aumento de preocupações com a segurança. Além disso, pode gerar problemas de otimização para mecanismos de busca, resultando em problemas de desempenho.</p>
+
+        <h2>Estilização da ta iframe</h2>
+        <img src="./css_tag_iframe.png" alt="estilização da tag iframe" width="100%">
+
+    </div>
+
+   
+</body>
+</html>
